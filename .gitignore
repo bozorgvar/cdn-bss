@@ -15,6 +15,7 @@
 /test/reports
 /logs
 
+
 # project release file
 /*.war
 
@@ -28,3 +29,15 @@
 
 # "temporary" build files
 /target
+/target-eclipse
+
+*.iml
+.idea
+activemq-data
+out
+
+
+# Eclipse Project Files
+.settings/*
+.project
+.classpath
